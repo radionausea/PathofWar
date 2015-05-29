@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document signature="Hero Lab Data">
+  <thing id="arPWMyrm" name="Myrmidon" description="Some fighters attend grand colleges of war where they learn to master more esoteric martial forms, and some learn the techniques of many different schools of combat and forge their own path. Others are trained in small regiments to fight as a single cohesive, adaptable unit where all members are capable of playing the other’s parts. These fighters are known as myrmidons, the pinnacle of the fighter’s tradition of adaptability, ingenuity, and enduring strength." compset="ClassVary" uniqueness="unique">
+    <fieldval field="cvSkillPts" value="4"/>
+    <arrayval field="cvCustTot" index="3" value="-1"/>
+    <arrayval field="cvCustTot" index="4" value="-1"/>
+    <arrayval field="cvCustTot" index="5" value="-1"/>
+    <arrayval field="cvCustTot" index="6" value="-1"/>
+    <arrayval field="cvCustTot" index="7" value="-1"/>
+    <arrayval field="cvCustTot" index="8" value="-1"/>
+    <arrayval field="cvCustTot" index="9" value="-2"/>
+    <arrayval field="cvCustTot" index="10" value="-2"/>
+    <arrayval field="cvCustTot" index="11" value="-2"/>
+    <arrayval field="cvCustTot" index="12" value="-2"/>
+    <arrayval field="cvCustTot" index="13" value="-2"/>
+    <arrayval field="cvCustTot" index="14" value="-2"/>
+    <arrayval field="cvCustTot" index="15" value="-2"/>
+    <arrayval field="cvCustTot" index="16" value="-2"/>
+    <arrayval field="cvCustTot" index="17" value="-2"/>
+    <arrayval field="cvCustTot" index="18" value="-2"/>
+    <arrayval field="cvCustTot" index="19" value="-2"/>
+    <arrayval field="cvBonFtMod" index="1" value="-1"/>
+    <arrayval field="cvBonFtMod" index="5" value="-1"/>
+    <arrayval field="cvBonFtMod" index="9" value="-1"/>
+    <arrayval field="cvBonFtMod" index="13" value="-1"/>
+    <arrayval field="cvBonFtMod" index="17" value="-1"/>
+    <usesource source="srcPathOfW" parent="pDscar" name="DSP - Path of War"/>
+    <tag group="ClassSkill" tag="skAcrobat"/>
+    <tag group="ClassSkill" tag="skBluff"/>
+    <tag group="ClassSkill" tag="skDiplo"/>
+    <tag group="ClassSkill" tag="skPWKnowMa"/>
+    <tag group="ClassSkill" tag="skPercep"/>
+    <tag group="ProductId" tag="HLCommunit" name="Hero Lab Community" abbrev="Hero Lab Community"/>
+    <tag group="ClassSkill" tag="skSenseMot" name="Sense Motive" abbrev="Sense Motive"/>
+    <tag group="ClVaryName" tag="AppParen" name="Append (in Parentheses)" abbrev="Append (in Parentheses)"/>
+    <bootstrap thing="cPWMyrmUnb">
+      <autotag group="ClSpecWhen" tag="1"/>
+      </bootstrap>
+    <bootstrap thing="cPWMyrmUTr">
+      <autotag group="ClSpecWhen" tag="3"/>
+      </bootstrap>
+    <bootstrap thing="cPWMyrmWDe">
+      <autotag group="ClSpecWhen" tag="1"/>
+      </bootstrap>
+    <bootstrap thing="cPWMyrDeed">
+      <autotag group="ClSpecWhen" tag="1"/>
+      </bootstrap>
+    <bootstrap thing="cPWMyrGrit">
+      <autotag group="ClSpecWhen" tag="1"/>
+      </bootstrap>
+    <bootstrap thing="cPWMyrm">
+      <autotag group="ClSpecWhen" tag="1"/>
+      </bootstrap>
+    <bootstrap thing="cPWMyrmMoA">
+      <autotag group="ClSpecWhen" tag="1"/>
+      </bootstrap>
+    <bootstrap thing="cCfgMyrm"></bootstrap>
+    <bootstrap thing="cPWMyrmRFT">
+      <autotag group="ClSpecWhen" tag="3"/>
+      </bootstrap>
+    <link linkage="varies" thing="cHelpFtr"/>
+    </thing>
+  <thing id="mHelpMyrm" name="Myrmidon Maneuvers" compset="PWManList">
+    <arrayval field="cMaxManLvl" index="0" value="1"/>
+    <arrayval field="cMaxManLvl" index="1" value="1"/>
+    <arrayval field="cMaxManLvl" index="2" value="1"/>
+    <arrayval field="cMaxManLvl" index="3" value="2"/>
+    <arrayval field="cMaxManLvl" index="4" value="2"/>
+    <arrayval field="cMaxManLvl" index="5" value="2"/>
+    <arrayval field="cMaxManLvl" index="6" value="3"/>
+    <arrayval field="cMaxManLvl" index="7" value="3"/>
+    <arrayval field="cMaxManLvl" index="8" value="4"/>
+    <arrayval field="cMaxManLvl" index="9" value="4"/>
+    <arrayval field="cMaxManLvl" index="10" value="5"/>
+    <arrayval field="cMaxManLvl" index="11" value="5"/>
+    <arrayval field="cMaxManLvl" index="12" value="6"/>
+    <arrayval field="cMaxManLvl" index="13" value="6"/>
+    <arrayval field="cMaxManLvl" index="14" value="6"/>
+    <arrayval field="cMaxManLvl" index="15" value="6"/>
+    <arrayval field="cMaxManLvl" index="16" value="6"/>
+    <arrayval field="cMaxManLvl" index="17" value="6"/>
+    <arrayval field="cMaxManLvl" index="18" value="6"/>
+    <arrayval field="cMaxManLvl" index="19" value="6"/>
+    <arrayval field="cManKnown" index="0" value="4"/>
+    <arrayval field="cManKnown" index="1" value="5"/>
+    <arrayval field="cManKnown" index="2" value="5"/>
+    <arrayval field="cManKnown" index="3" value="6"/>
+    <arrayval field="cManKnown" index="4" value="6"/>
+    <arrayval field="cManKnown" index="5" value="7"/>
+    <arrayval field="cManKnown" index="6" value="7"/>
+    <arrayval field="cManKnown" index="7" value="8"/>
+    <arrayval field="cManKnown" index="8" value="8"/>
+    <arrayval field="cManKnown" index="9" value="9"/>
+    <arrayval field="cManKnown" index="10" value="9"/>
+    <arrayval field="cManKnown" index="11" value="10"/>
+    <arrayval field="cManKnown" index="12" value="10"/>
+    <arrayval field="cManKnown" index="13" value="11"/>
+    <arrayval field="cManKnown" index="14" value="11"/>
+    <arrayval field="cManKnown" index="15" value="12"/>
+    <arrayval field="cManKnown" index="16" value="12"/>
+    <arrayval field="cManKnown" index="17" value="13"/>
+    <arrayval field="cManKnown" index="18" value="14"/>
+    <arrayval field="cManKnown" index="19" value="15"/>
+    <arrayval field="cManReady" index="0" value="3"/>
+    <arrayval field="cManReady" index="1" value="3"/>
+    <arrayval field="cManReady" index="2" value="3"/>
+    <arrayval field="cManReady" index="3" value="4"/>
+    <arrayval field="cManReady" index="4" value="4"/>
+    <arrayval field="cManReady" index="5" value="4"/>
+    <arrayval field="cManReady" index="6" value="4"/>
+    <arrayval field="cManReady" index="7" value="4"/>
+    <arrayval field="cManReady" index="8" value="4"/>
+    <arrayval field="cManReady" index="9" value="5"/>
+    <arrayval field="cManReady" index="10" value="5"/>
+    <arrayval field="cManReady" index="11" value="5"/>
+    <arrayval field="cManReady" index="12" value="5"/>
+    <arrayval field="cManReady" index="13" value="5"/>
+    <arrayval field="cManReady" index="14" value="6"/>
+    <arrayval field="cManReady" index="15" value="6"/>
+    <arrayval field="cManReady" index="16" value="6"/>
+    <arrayval field="cManReady" index="17" value="6"/>
+    <arrayval field="cManReady" index="18" value="6"/>
+    <arrayval field="cManReady" index="19" value="7"/>
+    <arrayval field="cStances" index="0" value="1"/>
+    <arrayval field="cStances" index="1" value="1"/>
+    <arrayval field="cStances" index="2" value="1"/>
+    <arrayval field="cStances" index="3" value="2"/>
+    <arrayval field="cStances" index="4" value="2"/>
+    <arrayval field="cStances" index="5" value="2"/>
+    <arrayval field="cStances" index="6" value="2"/>
+    <arrayval field="cStances" index="7" value="2"/>
+    <arrayval field="cStances" index="8" value="2"/>
+    <arrayval field="cStances" index="9" value="3"/>
+    <arrayval field="cStances" index="10" value="3"/>
+    <arrayval field="cStances" index="11" value="3"/>
+    <arrayval field="cStances" index="12" value="3"/>
+    <arrayval field="cStances" index="13" value="3"/>
+    <arrayval field="cStances" index="14" value="4"/>
+    <arrayval field="cStances" index="15" value="4"/>
+    <arrayval field="cStances" index="16" value="4"/>
+    <arrayval field="cStances" index="17" value="4"/>
+    <arrayval field="cStances" index="18" value="4"/>
+    <arrayval field="cStances" index="19" value="4"/>
+    <usesource source="srcPOWEx"/>
+    <tag group="Discipline" tag="ScarletThr"/>
+    <tag group="Discipline" tag="TmpGale"/>
+    <tag group="Discipline" tag="ThrashDrag"/>
+    <tag group="Discipline" tag="PrimalFury"/>
+    <tag group="UseAttr" tag="aWIS"/>
+    <tag group="Discipline" tag="BrokenBlad"/>
+    <tag group="Discipline" tag="GoldenLion"/>
+    <tag group="Discipline" tag="IronTort"/>
+    <tag group="Discipline" tag="MithCurr"/>
+    <tag group="Discipline" tag="PrcThun"/>
+    <link linkage="powClass" thing="cHelpFtr"/>
+    <link linkage="powCfg" thing="cCfgMyrm"/>
+    </thing>
+  <thing id="cCfgMyrm" name="Myrmidon Maneuvers" compset="Configure" uniqueness="unique">
+    <tag group="PathOfWar" tag="Config" name="Configurable" abbrev="Configurable"/>
+    <tag group="ProductId" tag="HLCommunit" name="Communit" abbrev="HLCommunit"/>
+    <bootstrap thing="mHelpMyrm"></bootstrap>
+    <prereq message="You have too many maneuvers readied">
+      <validate>var ValidManOn as number
+        Call ValidManOn
+        @valid = ValidManOn</validate>
+      </prereq>
+    <prereq message="You have activated more stances than allowed">
+      <validate>var ValidStaOn as number
+        Call ValidStaOn
+        @valid = ValidStaOn</validate>
+      </prereq>
+    </thing>
+  <thing id="cPWMyrGrit" name="Grit" description="A myrmidon makes her mark upon the world with nerves of steel and superior training. Through determination, verve, or otherwise dumb luck, the myrmidon is capable of forcing incredible feats of daring and skill through their own tenacity. In game terms, grit is a fluctuating measure of a myrmidon’s ability to perform incredible actions in combat. At the start of each day, a myrmidon gains a number of grit points equal to her Wisdom modifier (minimum 1). Her grit goes up or down throughout the day, but usually cannot go higher than her Wisdom modifier (minimum 1), though some feats and magic items may affect this maximum. A myrmidon spends grit to accomplish deeds (see below), and regains grit in the following ways:\n{i}Critical Hit{/i}: Each time the myrmidon confirms a critical hit with a weapon she has Weapon Focus with or is in a weapon group associated with a discipline she has Discipline Focus for while in the heat of combat, she regains 1 grit point. Confirming a critical hit on a helpless or unaware creature or on a creature that has fewer Hit Dice than half the myrmidon’s character level does not restore grit.\n{i}Killing Blow with a Maneuver{i}: When the myrmidon reduces a creature to 0 or fewer hit points with a maneuver or with a weapon she has Weapon Focus with, she regains 1 grit point. Destroying an unattended object, reducing a helpless or unaware creature to 0 or fewer hit points, or reducing a creature that has fewer Hit Dice than half the myrmidon’s character level to 0 or fewer hit points does not restore any grit.\nOPTIONAL: {i}Daring Act{/i}: Each time a myrmidon performs a daring act, she can regain grit. As a general guideline, a daring act should be risky and dramatic. It should take a good deal of guts, and its outcome should have a low probability of success. If it is successful, the myrmidon regains 1 grit point. Before attempting a daring act, the player should ask the GM whether the act qualifies. The GM is the final arbiter of what’s considered a daring act, and can grant a regained grit point for a daring act even if the player does not ask beforehand whether the act qualifies. (This method is subject to GM approval)\n\nThis replaces the bonus feat at 2nd level." compset="ClSpecial" summary="Gain a pool of points that are spent to fuel deeds, regained on firearm crit/killing blow.">
+    <tag group="AbilType" tag="Extra" name="Extraordinary Ability" abbrev=" (Ex)"/>
+    <tag group="SpecType" tag="Attack" name="Attack" abbrev="Attack"/>
+    <bootstrap thing="trkGrit">
+      <autotag group="Helper" tag="Grit"/>
+      </bootstrap>
+    <eval phase="PostLevel" priority="10000"><![CDATA[
+      ~if we're on a planned class level, then we need to undo the setting of
+      ~our grit tracker as a Grit ability - that will keep it from generating
+      ~a pool value, which means it's hidden until we're turned into a real
+      ~level
+      if (tagis[Helper.ShowSpec] = 0) then
+        perform hero.child[trkGrit].delete[Helper.Grit]
+        endif]]></eval>
+    <eval phase="Render" priority="10000" index="2"><![CDATA[
+      field[sbName].text = lowercase(field[thingname].text) & " (" & hero.childfound[trkGrit].field[trkMax].value & ")"]]></eval>
+    </thing>
+  <thing id="cPWMyrDeed" name="Deeds" description="Myrmidons spend grit points to accomplish deeds. Most deeds grant the myrmidon some momentary bonus or effect, but there are some that provide longer lasting effects. Some deeds stay in effect as long as the myrmidon has at least 1 grit point. The following is the list of base myrmidon deeds. A myrmidon can only perform deeds of her level or lower. Unless otherwise noted, a deed can be performed multiple successive times, as long as the appropriate amount of grit is spent to perform the deed." compset="ClSpecial" summary="Use Grit to perform special abilities with your firearms.">
+    <tag group="Helper" tag="ShowStatbl" name="ShowStatbl" abbrev="ShowStatbl"/>
+    <tag group="Helper" tag="SpecUp" name="SpecUp" abbrev="SpecUp"/>
+    <tag group="SpecType" tag="Attack" name="Attack" abbrev="Attack"/>
+    <eval phase="Render" priority="110000"><![CDATA[
+      var deedlist as string
+
+      foreach pick in hero from BaseClSpec where "abCategory.GunDeed & Helper.ShowSpec & !Helper.SpcDisable"
+        deedlist = splice(deedlist, eachpick.field[sbName].text, ", ")
+        perform eachpick.assign[Hide.Statblock]
+        nexteach
+
+      deedlist = replace(deedlist, "deed: ", "", 0)
+
+      field[sbName].text = lowercase(field[thingname].text) & " (" & deedlist & ")"]]>
+      <after name="Set sbName if Blank"/>
+      </eval>
+    </thing>
+  <thing id="cPWMyrmUnb" name="Deed: Unbreakable" description="At 1st level, the myrmidon is trained very well to protect herself against the many unnatural elements of this world where she must rely on only her wits and training to protect her from harm. The character may spend 1 grit point to gain a +4 circumstance bonus on a single saving throw as an immediate action." compset="ClSpecial" summary="Use 1 grit togain +4 circumstance bonus to a saving throw">
+    <tag group="AbilType" tag="Extra" name="Extraordinary Ability" abbrev=" (Ex)"/>
+    <tag group="abCategory" tag="GunDeed" name="Gunslinger Deed" abbrev="Gunslinger Deed"/>
+    </thing>
+  <thing id="cPWMyrm" name="Deed: Heroic Recovery" description="At 1st level, the myrmidon can recover an expended maneuver as a swift action for the cost of 1 point of grit." compset="ClSpecial" summary="Use 1 grit to recover an expended maneuaver">
+    <tag group="AbilType" tag="Extra" name="Extraordinary Ability" abbrev=" (Ex)"/>
+    <tag group="abCategory" tag="GunDeed" name="Gunslinger Deed" abbrev="Gunslinger Deed"/>
+    </thing>
+  <thing id="cPWMyrmMoA" name="Deed: Man of Action" description="At 11th level, when the gunslinger hits a living creature with a firearm attack, she can spend 1 grit point as a free action to have that attack deal extra bleed damage. The amount of bleed damage is equal to the gunslinger&apos;s Dexterity modifier. Alternatively, the gunslinger can spend 2 grit points to deal 1 point of Strength, Dexterity, or Constitution bleed damage (gunslinger&apos;s choice) instead. Creatures that are immune to sneak attacks are also immune to these types of bleed damage." compset="ClSpecial" summary="Use 1 grit to gain circumstance nonus to Acrobatics, Climb or Swim checks">
+    <tag group="AbilType" tag="Extra" name="Extraordinary Ability" abbrev=" (Ex)"/>
+    <tag group="abCategory" tag="GunDeed" name="Gunslinger Deed" abbrev="Gunslinger Deed"/>
+    </thing>
+  <thing id="cPWMyrmRFT" name="Deed: Ready for Trouble" description="At 3rd level, as long as the myrmidon has at least 1 grit point, she gains the following benefits. First, she gains a +2 bonus on initiative checks and Will saves to resist fear and compulsion effects. Furthermore, if her hands are free and unrestrained, and the weapon is not hidden, she can draw a single light or one-handed weapon or shield (except tower shield) as part of the initiative check for the cost of 1 grit." compset="ClSpecial" summary="Use 1 grit for +2 iniative, will saves vs Fear and Compulsion.  Additional benefits with free hands">
+    <tag group="AbilType" tag="Extra" name="Extraordinary Ability" abbrev=" (Ex)"/>
+    <tag group="abCategory" tag="GunDeed" name="Gunslinger Deed" abbrev="Gunslinger Deed"/>
+    </thing>
+  <thing id="cPWMyrmUTr" name="Deed: Utility Trick" description="At 3rd level, if the myrmidon has at least 1 grit point, she can perform any of the following utility tricks. The myrmidon must declare the utility trick she is using before using the ability.\n\n{i}Field Bandage{/i}: By using a healer’s kit to quickly dress and bandage a wound, you may grant 1d6 temporary hit points per three character levels to the target (not to exceed the target’s maximum hit points) as a full round action. These temporary hit points last for ten minutes.  A target of field bandage may only only receive the benefits of this ability once per day or until they have received magical healing equaling or exceeding the amount of temporary hit points restored by this ability. In addition, the myrmidon may bandage herself or an adjacent creature to staunch a bleeding wound. This ends a single bleed condition affecting the creature, and may be done as part of a normal field bandage.\n\n{i}Makeshift Tool{/i}: The myrmidon makes due with his weapons in hand should she need to use a tool in a combat situation. She may make use of weapons in hand to fake the tools needed for the job without penalty.\n\n{i}Improvise Weapon{/i}: You may use objects not intended to be normal weapons or cobble together something that can be used as a weapon and do so without being subject to non-proficient penalties from using an improvised weapon and you may reduce the improvised weapon penalty to attack rolls from -4 to -2." compset="ClSpecial" summary="Use 1 grit to quickly treat a wound, improvise a tool or become better with improvised weapons">
+    <tag group="AbilType" tag="Extra" name="Extraordinary Ability" abbrev=" (Ex)"/>
+    <tag group="abCategory" tag="GunDeed" name="Gunslinger Deed" abbrev="Gunslinger Deed"/>
+    </thing>
+  <thing id="cPWMyrmWDe" name="Deed: Warrior&apos;s Determination" description="The myrmidon gains an uncanny ability to force herself through many hardships and keep on going through her superior training and experience. At 6th level she may spend 1 grit point to ignore the fatigued, shaken, or sickened condition for the duration of the encounter from a single source. At 10th level, the myrmidon may ignore the dazed, diseased, or staggered condition from a single source for the duration of an encounter. Finally, at 14th level she may ignore the exhausted, frightened, or nauseated condition from a single source for the duration of the encounter. Multiple sources would require multiple expenditures of grit for the myrmidon to continue to ignore them. Warrior’s determination is an immediate action that can be used even if the condition would prevent them from acting or using an immediate action." compset="ClSpecial" summary="Use 1 grit to ignore selected conditions depending on  your level">
+    <tag group="AbilType" tag="Extra" name="Extraordinary Ability" abbrev=" (Ex)"/>
+    <tag group="abCategory" tag="GunDeed" name="Gunslinger Deed" abbrev="Gunslinger Deed"/>
+    </thing>
+  </document>
